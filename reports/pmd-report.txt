@@ -1,0 +1,1138 @@
+src/main/java/com/news/NewspaperSystemApplication.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/NewspaperSystemApplication.java:9:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/news/NewspaperSystemApplication.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/NewspaperSystemApplication.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/news/config/CORSFilter.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/config/CORSFilter.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/config/SecurityConfig.java:31:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/config/SecurityConfig.java:31:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/config/SecurityConfig.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/config/SecurityConfig.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'auth' is not assigned and could be declared final
+src/main/java/com/news/config/SecurityConfig.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'http' is not assigned and could be declared final
+src/main/java/com/news/config/SecurityConfig.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dao' could be declared final
+src/main/java/com/news/config/SecurityConfig.java:101:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on method 'getPasswordEncoder()'
+src/main/java/com/news/config/SecurityConfig.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'encoder' could be declared final
+src/main/java/com/news/config/SecurityConfig.java:103:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'encoder'
+src/main/java/com/news/config/SecurityConfig.java:111:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'web' is not assigned and could be declared final
+src/main/java/com/news/config/SwaggerConfig.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/config/SwaggerConfig.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/config/SwaggerConfig.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/config/SwaggerConfig.java:26:	LongVariable:	LongVariable: Avoid excessively long variable names like AUTHORIZATION_HEADER
+src/main/java/com/news/config/SwaggerConfig.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/config/SwaggerConfig.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authorizationScope' could be declared final
+src/main/java/com/news/config/SwaggerConfig.java:55:	LongVariable:	LongVariable: Avoid excessively long variable names like authorizationScope
+src/main/java/com/news/config/SwaggerConfig.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'authorizationScopes' could be declared final
+src/main/java/com/news/config/SwaggerConfig.java:56:	LongVariable:	LongVariable: Avoid excessively long variable names like authorizationScopes
+src/main/java/com/news/config/SwaggerConfig.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdminController.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/controller/AdminController.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/AdminController.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/AdminController.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdminController.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/news/controller/AdminController.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdminController.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/controller/AdminController.java:41:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/news/controller/AdminController.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdminController.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'adminId' is not assigned and could be declared final
+src/main/java/com/news/controller/AdminController.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/news/controller/AdminController.java:49:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/news/controller/AdminController.java:49:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/news/controller/AdminController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/main/java/com/news/controller/AdminController.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdminController.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/news/controller/AdminController.java:57:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdminController.java:66:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdminController.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/news/controller/AdminController.java:66:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertisementController.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Payment'
+src/main/java/com/news/controller/AdvertisementController.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.exception.PaymentNotFoundException'
+src/main/java/com/news/controller/AdvertisementController.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/AdvertisementController.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/AdvertisementController.java:20:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/main/java/com/news/controller/AdvertisementController.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:23:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/main/java/com/news/controller/AdvertisementController.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisementService' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisement' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisement' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertisementController.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedAdvertisement' could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:36:	LongVariable:	LongVariable: Avoid excessively long variable names like updatedAdvertisement
+src/main/java/com/news/controller/AdvertisementController.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:41:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertisementController.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:50:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertisementController.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisements' could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertisementController.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nid' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/controller/AdvertisementController.java:66:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/news/controller/AdvertiserController.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Payment'
+src/main/java/com/news/controller/AdvertiserController.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.exception.PaymentNotFoundException'
+src/main/java/com/news/controller/AdvertiserController.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/controller/AdvertiserController.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/AdvertiserController.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/AdvertiserController.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/AdvertiserController.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/main/java/com/news/controller/AdvertiserController.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertiserController.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiser' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertiserController.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:40:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertiserController.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertiserController.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiser' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:57:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertiserController.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedAdvertiser' could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:66:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertiserController.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:67:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/news/controller/AdvertiserController.java:74:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertiserController.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:74:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertiserController.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/AdvertiserController.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/AdvertiserController.java:79:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/AdvertiserController.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisements' could be declared final
+src/main/java/com/news/controller/BookingController.java:30:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/controller/BookingController.java:30:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/BookingController.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/BookingController.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/BookingController.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/BookingController.java:42:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/main/java/com/news/controller/BookingController.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'booking' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/controller/BookingController.java:60:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/news/controller/BookingController.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:68:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:68:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/BookingController.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/main/java/com/news/controller/BookingController.java:78:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:78:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:78:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/BookingController.java:88:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:88:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'booking' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:88:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:88:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/BookingController.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedBooking' could be declared final
+src/main/java/com/news/controller/BookingController.java:100:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'aid' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookings' could be declared final
+src/main/java/com/news/controller/BookingController.java:110:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:110:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:112:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/main/java/com/news/controller/BookingController.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/main/java/com/news/controller/BookingController.java:123:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:123:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:123:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/BookingController.java:127:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'booking' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:135:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalAdvertisement' could be declared final
+src/main/java/com/news/controller/BookingController.java:135:	LongVariable:	LongVariable: Avoid excessively long variable names like optionalAdvertisement
+src/main/java/com/news/controller/BookingController.java:143:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/news/controller/BookingController.java:151:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/main/java/com/news/controller/BookingController.java:178:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/BookingController.java:180:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiserId' is not assigned and could be declared final
+src/main/java/com/news/controller/BookingController.java:182:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookings' could be declared final
+src/main/java/com/news/controller/NewspaperController.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/controller/NewspaperController.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/NewspaperController.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/NewspaperController.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/NewspaperController.java:27:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/main/java/com/news/controller/NewspaperController.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/NewspaperController.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaper' is not assigned and could be declared final
+src/main/java/com/news/controller/NewspaperController.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/NewspaperController.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/controller/NewspaperController.java:41:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/com/news/controller/NewspaperController.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/NewspaperController.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/NewspaperController.java:49:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/NewspaperController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/main/java/com/news/controller/NewspaperController.java:59:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/NewspaperController.java:59:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nid' is not assigned and could be declared final
+src/main/java/com/news/controller/NewspaperController.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisements' could be declared final
+src/main/java/com/news/controller/NewspaperController.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/NewspaperController.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/NewspaperController.java:69:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/NewspaperController.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/NewspaperController.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/controller/NewspaperController.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaper' is not assigned and could be declared final
+src/main/java/com/news/controller/NewspaperController.java:79:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/controller/NewspaperController.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedNewspaper' could be declared final
+src/main/java/com/news/controller/PaymentController.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/PaymentController.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/PaymentController.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/PaymentController.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'paymentService' is not assigned and could be declared final
+src/main/java/com/news/controller/PaymentController.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/PaymentController.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'paymentId' is not assigned and could be declared final
+src/main/java/com/news/controller/PaymentController.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/news/controller/PaymentController.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/news/controller/PaymentController.java:37:	LawOfDemeter:	LawOfDemeter: Call to `getBooking` on foreign value `payment` (degree 1)
+src/main/java/com/news/controller/PaymentController.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/PaymentController.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'paymentId' is not assigned and could be declared final
+src/main/java/com/news/controller/PaymentController.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/PaymentController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payments' could be declared final
+src/main/java/com/news/controller/PaymentController.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentResponses' could be declared final
+src/main/java/com/news/controller/PaymentController.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/news/controller/PaymentController.java:55:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/news/controller/PaymentController.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/news/controller/PaymentController.java:57:	LawOfDemeter:	LawOfDemeter: Call to `getBooking` on foreign value `payment` (degree 1)
+src/main/java/com/news/controller/PaymentResponse.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/PaymentResponse.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/PaymentResponse.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/PaymentResponse.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/PaymentResponse.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/UserController.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/controller/UserController.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/controller/UserController.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/UserController.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/controller/UserController.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/UserController.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/news/controller/UserController.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDB' could be declared final
+src/main/java/com/news/controller/UserController.java:36:	LogicInversion:	LogicInversion: Use opposite operator instead of the logic complement operator.
+src/main/java/com/news/controller/UserController.java:37:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/news/controller/UserController.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'encodedPassword' could be declared final
+src/main/java/com/news/controller/UserController.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/UserController.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'principal' is not assigned and could be declared final
+src/main/java/com/news/controller/UserController.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/news/controller/UserController.java:52:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'user'
+src/main/java/com/news/controller/UserController.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/UserController.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/controller/UserController.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/entity/Admin.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/Admin.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Admin.java:25:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/entity/Admin.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Admin.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Admin.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Admin.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/Advertisement.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:19:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementTitle
+src/main/java/com/news/entity/Advertisement.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:21:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementDescription
+src/main/java/com/news/entity/Advertisement.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementPrice
+src/main/java/com/news/entity/Advertisement.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:31:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementStatus
+src/main/java/com/news/entity/Advertisement.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertisement.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertiser.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/main/java/com/news/entity/Advertiser.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/Advertiser.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertiser.java:18:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/entity/Advertiser.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertiser.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertiser.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertiser.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Advertiser.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Booking.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/Booking.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Booking.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Booking.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Booking.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Newspaper.java:2:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/main/java/com/news/entity/Newspaper.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/Newspaper.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Newspaper.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Newspaper.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Newspaper.java:21:	LongVariable:	LongVariable: Avoid excessively long variable names like newspaperDescription
+src/main/java/com/news/entity/Newspaper.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Payment.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.validation.constraints.NotBlank'
+src/main/java/com/news/entity/Payment.java:28:	UnnecessaryImport:	UnnecessaryImport: Unused import 'lombok.ToString'
+src/main/java/com/news/entity/Payment.java:39:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/Payment.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Payment.java:43:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/entity/Payment.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Payment.java:51:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Payment.java:53:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/com/news/entity/Payment.java:53:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/Payment.java:55:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/User.java:31:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/entity/User.java:31:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/main/java/com/news/entity/User.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/User.java:37:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/entity/User.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/User.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/entity/User.java:49:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/exception/AdminNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/AdminNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/AdminNotFoundException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/AdminNotFoundException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/AdvertisementNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/AdvertisementNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/AdvertisementNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/AdvertisementNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/AdvertiserNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/AdvertiserNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/AdvertiserNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/AdvertiserNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/BookingNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/BookingNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/BookingNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/BookingNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/DuplicateAdvertiserException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/DuplicateAdvertiserException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/DuplicateAdvertiserException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/DuplicateAdvertiserException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/GlobalExceptionHandler.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/exception/GlobalExceptionHandler.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/news/exception/GlobalExceptionHandler.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/news/exception/GlobalExceptionHandler.java:18:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/news/exception/GlobalExceptionHandler.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/news/exception/GlobalExceptionHandler.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/news/exception/GlobalExceptionHandler.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/news/exception/GlobalExceptionHandler.java:30:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/news/exception/GlobalExceptionHandler.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/news/exception/GlobalExceptionHandler.java:36:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/news/exception/GlobalExceptionHandler.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/GlobalExceptionHandler.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/news/exception/GlobalExceptionHandler.java:42:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/news/exception/InvalidCredentialsException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/InvalidCredentialsException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/InvalidCredentialsException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/InvalidCredentialsException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/NewspaperNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/NewspaperNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/NewspaperNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/NewspaperNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/PaymentNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/PaymentNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/PaymentNotFoundException.java:4:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/PaymentNotFoundException.java:4:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/UserAlreadyExistsException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/UserAlreadyExistsException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/UserAlreadyExistsException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/UserAlreadyExistsException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/exception/UserNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/exception/UserNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/news/exception/UserNotFoundException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/exception/UserNotFoundException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/news/repository/AdminRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/AdvertisementRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/AdvertiserRepository.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/AdvertiserRepository.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/repository/AdvertiserRepository.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/repository/BookingRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/NewspaperRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/PaymentRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/UserRepository.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/repository/UserRepository.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdminService.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/service/AdminService.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/AdminService.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/AdminService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdminService.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/news/service/AdminService.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdminService.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdminService.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/service/AdminService.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/service/AdminService.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optional' could be declared final
+src/main/java/com/news/service/AdminService.java:27:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'optional'
+src/main/java/com/news/service/AdminService.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdminService.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/news/service/AdminService.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdminService.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'admin' is not assigned and could be declared final
+src/main/java/com/news/service/AdvertisementService.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Payment'
+src/main/java/com/news/service/AdvertisementService.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/AdvertisementService.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertisementService.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertisementService.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertisementService.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertisementService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertisementService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertisementService.java:19:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/service/AdvertisementService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertiserService.java:2:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Advertisement'
+src/main/java/com/news/service/AdvertiserService.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.exception.DuplicateAdvertiserException'
+src/main/java/com/news/service/AdvertiserService.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/AdvertiserService.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertiserService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertiserService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertiserService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/AdvertiserService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/BookingService.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/BookingService.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewPaymentService.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/service/NewPaymentService.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/NewPaymentService.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/NewPaymentService.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/NewPaymentService.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewPaymentService.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'booking' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalCost' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bill' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:64:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'bill'
+src/main/java/com/news/service/NewPaymentService.java:70:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on method 'calculateTotalCost(Advertisement)'
+src/main/java/com/news/service/NewPaymentService.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisement' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'publicationDate' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expiryDate' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementPrice' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:76:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementPrice
+src/main/java/com/news/service/NewPaymentService.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'days' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalCost' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:84:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'totalCost'
+src/main/java/com/news/service/NewPaymentService.java:90:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on method 'generateTransactionId()'
+src/main/java/com/news/service/NewPaymentService.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:94:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'transactionId'
+src/main/java/com/news/service/NewPaymentService.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'totalCost' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'transactionId' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:119:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewPaymentService.java:119:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingPayment' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:127:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewPaymentService.java:127:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'paymentId' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:128:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:135:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewPaymentService.java:135:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'paymentId' is not assigned and could be declared final
+src/main/java/com/news/service/NewPaymentService.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/main/java/com/news/service/NewPaymentService.java:143:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewspaperService.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/NewspaperService.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewspaperService.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewspaperService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewspaperService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/NewspaperService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/UserService.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/service/UserService.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/UserService.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/UserService.java:27:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/news/service/UserService.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/com/news/service/UserService.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/news/service/UserService.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/service/UserService.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sga' could be declared final
+src/main/java/com/news/service/UserService.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'springUser' could be declared final
+src/main/java/com/news/service/UserService.java:35:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'springUser'
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:17:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementRepository
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:20:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementRepository
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisementRepository' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisement' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisement' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingAdvertisement' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:31:	LongVariable:	LongVariable: Avoid excessively long variable names like existingAdvertisement
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisementId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertisementId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:61:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'filteredList' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:66:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'filteredList'
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:78:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nid' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newList' could be declared final
+src/main/java/com/news/service/impl/AdvertisementServiceImpl.java:88:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'newList'
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:2:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Advertisement'
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:19:	LongVariable:	LongVariable: Avoid excessively long variable names like advertiserRepository
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:24:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementRepository
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiser' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiser' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingAdvertiser' could be declared final
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:33:	LongVariable:	LongVariable: Avoid excessively long variable names like existingAdvertiser
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiserId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiserId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/AdvertiserServiceImpl.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:15:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Payment'
+src/main/java/com/news/service/impl/BookingServiceImpl.java:27:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/impl/BookingServiceImpl.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/impl/BookingServiceImpl.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/impl/BookingServiceImpl.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/impl/BookingServiceImpl.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingRepository' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'booking' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:53:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'booking' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingBooking' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:85:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:109:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'aid' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:111:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:113:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingList' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:113:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'bookingList'
+src/main/java/com/news/service/impl/BookingServiceImpl.java:115:	LawOfDemeter:	LawOfDemeter: Call to `getAdvertiser` on foreign value `e.getAdvertisement()` (degree 1)
+src/main/java/com/news/service/impl/BookingServiceImpl.java:124:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'advertiserId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:126:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookings' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:128:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingsByAdvertiser' could be declared final
+src/main/java/com/news/service/impl/BookingServiceImpl.java:128:	LongVariable:	LongVariable: Avoid excessively long variable names like bookingsByAdvertiser
+src/main/java/com/news/service/impl/BookingServiceImpl.java:128:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'bookingsByAdvertiser'
+src/main/java/com/news/service/impl/BookingServiceImpl.java:130:	LawOfDemeter:	LawOfDemeter: Call to `getAdvertiser` on foreign value `booking.getAdvertisement()` (degree 1)
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:18:	LongVariable:	LongVariable: Avoid excessively long variable names like newspaperRepository
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:22:	LongVariable:	LongVariable: Avoid excessively long variable names like newspaperRepository
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaperRepository' is not assigned and could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaper' is not assigned and could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaper' is not assigned and could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingNewspaper' could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaperId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newspaperId' is not assigned and could be declared final
+src/main/java/com/news/service/impl/NewspaperServiceImpl.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/main/java/com/news/util/DataInitializer.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/util/DataInitializer.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/util/DataInitializer.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/util/DataInitializer.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/util/DataInitializer.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/util/DataInitializer.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'adminRepository' is not assigned and could be declared final
+src/main/java/com/news/util/DataInitializer.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'passwordEncoder' is not assigned and could be declared final
+src/main/java/com/news/util/DataInitializer.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userRepository' is not assigned and could be declared final
+src/main/java/com/news/util/DataInitializer.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/util/DataInitializer.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/news/util/DataInitializer.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/main/java/com/news/util/LoggerUtil.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/util/LoggerUtil.java:6:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/news/util/LoggerUtil.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/news/util/LoggerUtil.java:12:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on constructor 'LoggerUtil()'
+src/main/java/com/news/util/LoggerUtil.java:12:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/news/util/LoggerUtil.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/util/LoggerUtil.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'object' is not assigned and could be declared final
+src/main/java/com/news/util/ValidationUtil.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/news/util/ValidationUtil.java:5:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/news/util/ValidationUtil.java:7:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on constructor 'ValidationUtil()'
+src/main/java/com/news/util/ValidationUtil.java:7:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/news/util/ValidationUtil.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/util/ValidationUtil.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'data' is not assigned and could be declared final
+src/main/java/com/news/util/ValidationUtil.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'regex' is not assigned and could be declared final
+src/main/java/com/news/util/ValidationUtil.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/util/ValidationUtil.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/news/util/ValidationUtil.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'regexPattern' could be declared final
+src/main/java/com/news/util/ValidationUtil.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/news/util/ValidationUtil.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'phone' is not assigned and could be declared final
+src/main/java/com/news/util/ValidationUtil.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'regexPattern' could be declared final
+src/test/java/com/news/NewspaperSystemApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/NewspaperSystemApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/NewspaperSystemApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/news/NewspaperSystemApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/news/controller/AdminControllerTest.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/controller/AdminControllerTest.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:23:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:37:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:37:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdminControllerTest.java:38:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "1234567890" appears 5 times in this file; the first occurrence is on line 38
+src/test/java/com/news/controller/AdminControllerTest.java:38:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "John Doe" appears 5 times in this file; the first occurrence is on line 38
+src/test/java/com/news/controller/AdminControllerTest.java:38:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "johndoe@example.com" appears 5 times in this file; the first occurrence is on line 38
+src/test/java/com/news/controller/AdminControllerTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:42:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:43:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:49:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:49:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdminControllerTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin1' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin2' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admins' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:58:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:64:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:64:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:64:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdminControllerTest.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:71:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:72:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:78:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:78:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:78:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdminControllerTest.java:81:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:83:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:84:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:90:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:90:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:90:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdminControllerTest.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:93:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:95:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:96:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdminControllerTest.java:102:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdminControllerTest.java:102:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdminControllerTest.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdminControllerTest.java:107:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdminControllerTest.java:108:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/controller/AdvertisementControllerTest.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:23:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertisementControllerTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:26:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/test/java/com/news/controller/AdvertisementControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementController
+src/test/java/com/news/controller/AdvertisementControllerTest.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:37:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertisementControllerTest.java:37:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertisementControllerTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:57:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:57:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertisementControllerTest.java:57:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertisementControllerTest.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:72:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:73:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:79:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertisementControllerTest.java:79:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertisementControllerTest.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:94:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:95:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:101:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:101:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertisementControllerTest.java:101:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertisementControllerTest.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:104:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:105:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:111:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertisementControllerTest.java:111:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertisementControllerTest.java:111:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertisementControllerTest.java:112:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement1' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:116:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement2' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisements' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:123:	LawOfDemeter:	LawOfDemeter: Call to `getAllAdvertisements` on foreign value `advertisementController` (degree 1)
+src/test/java/com/news/controller/AdvertisementControllerTest.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertisementControllerTest.java:125:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertisementControllerTest.java:126:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:22:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/controller/AdvertiserControllerTest.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:22:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertiserControllerTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:28:	LongVariable:	LongVariable: Avoid excessively long variable names like advertiserController
+src/test/java/com/news/controller/AdvertiserControllerTest.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:36:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertiserControllerTest.java:36:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertiserControllerTest.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:46:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:47:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:53:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertiserControllerTest.java:53:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertiserControllerTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:63:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:69:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertiserControllerTest.java:69:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertiserControllerTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:78:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:79:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:85:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertiserControllerTest.java:85:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertiserControllerTest.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser1' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser2' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisers' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:97:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:99:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:105:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/AdvertiserControllerTest.java:105:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/AdvertiserControllerTest.java:105:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/AdvertiserControllerTest.java:106:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/AdvertiserControllerTest.java:108:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/AdvertiserControllerTest.java:112:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/com/news/controller/AdvertiserControllerTest.java:118:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/com/news/controller/AdvertiserControllerTest.java:120:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/com/news/controller/BookingControllerTest.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/news/controller/BookingControllerTest.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/controller/BookingControllerTest.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:23:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:37:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:37:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/BookingControllerTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:47:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:51:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:51:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/BookingControllerTest.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking1' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking2' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedBookings' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookings' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:61:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:65:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:65:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:65:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/BookingControllerTest.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedBooking' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:75:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:76:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:80:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:80:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:80:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/BookingControllerTest.java:81:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:89:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:93:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:93:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:93:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/BookingControllerTest.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:97:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedBooking' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:105:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:106:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:110:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/BookingControllerTest.java:110:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/BookingControllerTest.java:110:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/BookingControllerTest.java:111:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:112:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking1' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:113:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking2' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedBookings' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:118:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/BookingControllerTest.java:121:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/BookingControllerTest.java:122:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/news/controller/NewspaperControllerTest.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/controller/NewspaperControllerTest.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:25:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:31:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/test/java/com/news/controller/NewspaperControllerTest.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:34:	LongVariable:	LongVariable: Avoid excessively long variable names like newspaperController
+src/test/java/com/news/controller/NewspaperControllerTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:42:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:42:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/NewspaperControllerTest.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:56:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:56:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/NewspaperControllerTest.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper1' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper2' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedNewspapers' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:59:	LongVariable:	LongVariable: Avoid excessively long variable names like expectedNewspapers
+src/test/java/com/news/controller/NewspaperControllerTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspapers' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:66:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:70:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:70:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:70:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/NewspaperControllerTest.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedNewspaper' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:80:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:81:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:85:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:85:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/NewspaperControllerTest.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement1' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement2' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedAdvertisements' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:89:	LongVariable:	LongVariable: Avoid excessively long variable names like expectedAdvertisements
+src/test/java/com/news/controller/NewspaperControllerTest.java:93:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:96:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:97:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:101:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:101:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:101:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/NewspaperControllerTest.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:110:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:114:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/NewspaperControllerTest.java:114:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/NewspaperControllerTest.java:114:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/NewspaperControllerTest.java:115:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:116:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:118:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedNewspaper' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/NewspaperControllerTest.java:126:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/NewspaperControllerTest.java:127:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/UserControllerTest.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.junit.jupiter.api.BeforeAll'
+src/test/java/com/news/controller/UserControllerTest.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/controller/UserControllerTest.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/controller/UserControllerTest.java:20:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/UserControllerTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/UserControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/controller/UserControllerTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/UserControllerTest.java:37:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:37:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/UserControllerTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/UserControllerTest.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/UserControllerTest.java:55:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:55:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/controller/UserControllerTest.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:67:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/UserControllerTest.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/UserControllerTest.java:71:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'loggedInUser' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:80:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/UserControllerTest.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/UserControllerTest.java:84:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:89:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/UserControllerTest.java:93:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/UserControllerTest.java:93:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:98:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/controller/UserControllerTest.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/controller/UserControllerTest.java:102:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/controller/UserControllerTest.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedResponse' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/news/controller/UserControllerTest.java:107:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/entity/BookingTest.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/entity/BookingTest.java:11:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/entity/BookingTest.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/entity/BookingTest.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/entity/BookingTest.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/entity/BookingTest.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/entity/BookingTest.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/entity/BookingTest.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/entity/BookingTest.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/entity/BookingTest.java:29:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/entity/BookingTest.java:30:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/entity/BookingTest.java:34:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/entity/BookingTest.java:35:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/entity/BookingTest.java:39:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/entity/BookingTest.java:40:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/entity/BookingTest.java:44:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/entity/BookingTest.java:45:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/entity/BookingTest.java:49:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/entity/BookingTest.java:49:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/entity/BookingTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newBooking' could be declared final
+src/test/java/com/news/entity/BookingTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:52:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:53:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:54:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/BookingTest.java:55:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/PaymentTest.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.junit.jupiter.api.Assertions.assertNotNull'
+src/test/java/com/news/entity/PaymentTest.java:10:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/entity/PaymentTest.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/entity/PaymentTest.java:14:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/entity/PaymentTest.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/test/java/com/news/entity/PaymentTest.java:16:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/test/java/com/news/entity/PaymentTest.java:17:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/entity/PaymentTest.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentId' could be declared final
+src/test/java/com/news/entity/PaymentTest.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentAmount' could be declared final
+src/test/java/com/news/entity/PaymentTest.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paidDate' could be declared final
+src/test/java/com/news/entity/PaymentTest.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/test/java/com/news/entity/PaymentTest.java:31:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/PaymentTest.java:32:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/PaymentTest.java:33:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/PaymentTest.java:34:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/entity/PaymentTest.java:35:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/AdminServiceTest.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.mockito.Mockito'
+src/test/java/com/news/service/AdminServiceTest.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/service/AdminServiceTest.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/service/AdminServiceTest.java:18:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/AdminServiceTest.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/AdminServiceTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/AdminServiceTest.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/AdminServiceTest.java:27:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/AdminServiceTest.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:29:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "John" appears 5 times in this file; the first occurrence is on line 29
+src/test/java/com/news/service/AdminServiceTest.java:30:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "1234567890" appears 5 times in this file; the first occurrence is on line 30
+src/test/java/com/news/service/AdminServiceTest.java:31:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "john@example.com" appears 5 times in this file; the first occurrence is on line 31
+src/test/java/com/news/service/AdminServiceTest.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/AdminServiceTest.java:39:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/AdminServiceTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin1' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin2' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admins' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:58:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/AdminServiceTest.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/AdminServiceTest.java:62:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/AdminServiceTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'adminId' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalAdmin' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:76:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/AdminServiceTest.java:80:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/AdminServiceTest.java:80:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/AdminServiceTest.java:81:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/service/AdminServiceTest.java:93:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/AdminServiceTest.java:93:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/AdminServiceTest.java:94:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'admin' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/news/service/PaymentServiceTest.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/service/PaymentServiceTest.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/service/PaymentServiceTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/PaymentServiceTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/PaymentServiceTest.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/PaymentServiceTest.java:41:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/service/PaymentServiceTest.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:54:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'bill'.
+src/test/java/com/news/service/PaymentServiceTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalCost' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:73:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/PaymentServiceTest.java:77:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/news/service/PaymentServiceTest.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId1' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'transactionId2' could be declared final
+src/test/java/com/news/service/PaymentServiceTest.java:83:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/PaymentServiceTest.java:84:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Newspaper'
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:7:	UnnecessaryImport:	UnnecessaryImport: Unnecessary import from the current package 'com.news.service.impl.AdvertisementServiceImpl'
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.mockito.Mockito'
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:24:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:27:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementRepository
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:30:	LongVariable:	LongVariable: Avoid excessively long variable names like advertisementService
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:33:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:48:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:52:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingAdvertisement' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:54:	LongVariable:	LongVariable: Avoid excessively long variable names like existingAdvertisement
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedAdvertisement' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:58:	LongVariable:	LongVariable: Avoid excessively long variable names like updatedAdvertisement
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:67:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:71:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:73:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedAdvertisement' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:73:	LongVariable:	LongVariable: Avoid excessively long variable names like updatedAdvertisement
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:83:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:83:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:93:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:97:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:97:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:98:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:106:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:106:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:120:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:120:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:121:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisementId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:129:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:129:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:130:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement1' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:134:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement2' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:138:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisements' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:142:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:144:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:148:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:148:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:150:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement1' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:155:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisement2' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:160:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisements' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:164:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:166:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:170:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:184:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/com/news/service/impl/AdvertisementServiceImplTest.java:188:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:5:	UnnecessaryImport:	UnnecessaryImport: Unnecessary import from the current package 'com.news.service.impl.AdvertiserServiceImpl'
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:21:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:24:	LongVariable:	LongVariable: Avoid excessively long variable names like advertiserRepository
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:30:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:42:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:46:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingAdvertiser' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:48:	LongVariable:	LongVariable: Avoid excessively long variable names like existingAdvertiser
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedAdvertiser' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:61:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:65:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:65:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedAdvertiser' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:77:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:87:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:91:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:100:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:100:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:101:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:114:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:114:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:115:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiserId' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:123:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:123:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:124:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser1' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:128:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertiser2' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'advertisers' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/AdvertiserServiceImplTest.java:138:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Advertisement'
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.news.entity.Advertiser'
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:8:	UnnecessaryImport:	UnnecessaryImport: Unnecessary import from the current package 'com.news.service.impl.BookingServiceImpl'
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:25:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:34:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:38:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Confirmed" appears 6 times in this file; the first occurrence is on line 38
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:44:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:48:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingBooking' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedBooking' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:65:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:69:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedBooking' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:82:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:82:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:93:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:97:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:97:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:98:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:106:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:106:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:121:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:121:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:122:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookingId' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:130:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:130:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:131:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking1' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'booking2' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:141:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bookings' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:145:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:147:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/BookingServiceImplTest.java:149:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:21:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:24:	LongVariable:	LongVariable: Avoid excessively long variable names like newspaperRepository
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:30:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:41:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:45:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingNewspaper' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedNewspaper' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:64:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:68:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedNewspaper' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:82:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:82:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:94:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:98:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:98:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:107:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:107:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:123:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:123:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:124:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaperId' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:132:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:132:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:133:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper1' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:139:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspaper2' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:145:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newspapers' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/news/service/impl/NewspaperServiceImplTest.java:151:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
