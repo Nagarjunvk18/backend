@@ -13,5 +13,4 @@ public class NewspaperSystemApplication {
 		LoggerUtil.logInfo("running");
 	}
 	
-
 }

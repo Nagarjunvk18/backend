@@ -34,6 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	private UserService userService;
 
+	@SuppressWarnings("deprecation")
 	@Override
 
 	@Bean
@@ -77,7 +78,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				// Admin access
 
 				.antMatchers("/**").hasAuthority("ADMIN")
-				.antMatchers("/**").hasAuthority("ADVERTISER")
+				//.antMatchers("/**").hasAuthority("ADVERTISER")
 				
 
 				.and().httpBasic()
