@@ -18,7 +18,6 @@ public class NewspaperServiceImpl implements NewspaperService {
 	private final NewspaperRepository newspaperRepository;
 
 	@Autowired
-
 	public NewspaperServiceImpl(NewspaperRepository newspaperRepository) {
 
 		this.newspaperRepository = newspaperRepository;
