@@ -112,6 +112,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>newspaper-app</finalName>
 	</build>
 	<profiles>
 		<profile>
